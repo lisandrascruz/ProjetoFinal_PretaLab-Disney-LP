@@ -11,7 +11,11 @@ body {
 
 h1 {
   text-align: center;
+}
 
+h2 {
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 main {
@@ -25,7 +29,14 @@ p {
 section {
   border: thick double #32a1ce;;
   margin-bottom: 30px;
+  width: 50%;
 }
+
+button {
+  height: 36px;
+
+}
+
 footer {
   position: absolute;
   bottom: 0;
@@ -43,8 +54,58 @@ footer p {
   margin: 0;
 }
 
+#projeto1, #projeto2 {
+  padding: 10px 20px;
+  line-height: auto
+}
+
 #formulario {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+
+#notas {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#btnSituacao{
+  width: 300px;
+}
+
+#contentCalcBasica {
+  display: flex;
+  gap: 20px;
+}
+
+#contentCalcMedias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.nota {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputCalc {
+  width: 110px;
+  height: 30px;
+}
+
+.buttonCalc {
+  width: 110px;
+}
+
+.resultado {
+  margin-top: 0;
+}
+
+.inputNota{
+  width: 80px;
+  height: 36px;
 }

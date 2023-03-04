@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
     <title>Projeto Final</title>
   </head>
   <body>
@@ -12,27 +12,82 @@
     <!-- <img src="./img/exercito.gif" alt="" /> -->
     <main>
       <p>
-        Este é o projetinho do módulo de lógica de programação do curso O Poder
-        do Futuro, uma parceria da PretaLab com a Disney. Aqui tivemos acesso ao
-        conhecimento de lógica com Javascript: variáveis e constantes,
-        operadores aritméticos e lógicos, estruturas condicionais e de
-        repetição. Este projetinho tem como intuito demonstrar através da
+        Este é o projeto de conclusão do módulo de lógica de programação do
+        curso O Poder do Futuro, uma parceria da PretaLab com a Disney. Aqui
+        tivemos acesso ao conhecimento de lógica com Javascript: variáveis e
+        constantes, operadores aritméticos e lógicos, estruturas condicionais e
+        de repetição. Este projetinho tem como intuito demonstrar através da
         pratica o conhecimento adiquirido.
       </p>
-      
-      <section id="projeto1">
-        <h2>Projeto 1</h2>
-      </section>
 
-      <section id="projeto2">
-        <h2>Projeto 2</h2>
-      </section>
+      <div id="contentCalcBasica">
+        <section id="projeto1">
+          <h2>Calculadora Básica</h2>
+
+          <input class="inputCalc" id="numero1Soma" type="number" required />
+          <input class="inputCalc" id="numero2Soma" type="number" required />
+          <button class="buttonCalc" onclick="somar()">SOMAR</button>
+          <p class="resultado">Resultado: <b id="resultadoSoma"></b></p>
+
+          <input class="inputCalc" id="numero1Sub" type="number" required />
+          <input class="inputCalc" id="numero2Sub" type="number" required />
+          <button class="buttonCalc" onclick="subtrair()">SUBTRAIR</button>
+          <p class="resultado">Resultado: <b id="resultadoSub"></b></p>
+
+          <input class="inputCalc" id="numero1Mult" type="number" required />
+          <input class="inputCalc" id="numero2Mult" type="number" required />
+          <button class="buttonCalc" onclick="multiplicar()">
+            MULTIPLICAR
+          </button>
+          <p class="resultado">Resultado: <b id="resultadoMult"></b></p>
+
+          <input class="inputCalc" id="numero1Div" type="number" required />
+          <input class="inputCalc" id="numero2Div" type="number" required />
+          <button class="buttonCalc" onclick="dividir()">DIVIDIR</button>
+          <p class="resultado">Resultado: <b id="resultadoDiv"></b></p>
+        </section>
+
+        <section id="projeto2">
+          <h2>Calculadora de Médias</h2>
+
+          <div id="contentCalcMedias">
+            <div id="notas">
+              <div class="nota">
+                <label for="nota1">Nota 1</label>
+                <input class="inputNota" id="nota1" type="number" required />
+              </div>
+
+              <div class="nota">
+                <label for="nota2">Nota 2</label>
+                <input class="inputNota" id="nota2" type="number" required />
+              </div>
+
+              <div class="nota">
+                <label for="nota3">Nota 3</label>
+                <input class="inputNota" id="nota3" type="number" required />
+              </div>
+
+              <div class="nota">
+                <label for="nota4">Nota 4</label>
+                <input class="inputNota" id="nota4" type="number" required />
+              </div>
+            </div>
+
+            <button id="btnSituacao" onclick="calcularMedia()">
+              Qual a situação da estudante?
+            </button>
+
+            <p id="situacaoAluno" />
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer>
-      <p id="footer-text" />
+      <p id="footer-text">por Lisandra Cruz</p>
     </footer>
 
-    <script src="index.js"></script>
+    <script type="text/javascript" src="/js/calculadora.js"></script>
+    <script type="text/javascript" src="/js/media.js"></script>
   </body>
 </html>
