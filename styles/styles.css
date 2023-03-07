@@ -37,23 +37,6 @@ button {
 
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  color: #FFF;
-  width: 100%;
-  height: 70px;    
-  line-height: 70px;
-  background-color: #555;
-  text-align: center;
-
-}
-
-footer p {
-  font-size: 14px;
-  margin: 0;
-}
-
 #projeto1, #projeto2 {
   padding: 10px 20px;
   line-height: auto

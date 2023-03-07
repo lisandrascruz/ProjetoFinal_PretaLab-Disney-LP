@@ -7,8 +7,8 @@
     3. Se a nota for entre 3.1 e 5.9, mostre na tela: 
       "Você obteve media {nota}! Falta pouco para a média."
     4. Se a nota for entre 6 e 7, mostre na tela: "Você está na média com {nota}"
-    5. Se a nota for entre 7.1 e 9, mostre na tela: "Notão! Sua média é {nota}!"
-    6. Se a nota for entre 7.1 e 9, mostre na tela: 
+    5. Se a nota for entre 7.1 e 9.9, mostre na tela: "Notão! Sua média é {nota}!"
+    6. Se a nota for entre 10, mostre na tela: 
       "Hoje é seu aniversário? Pq você ta de parabéns! 10 de média"
 */
 function calcularMedia() {
@@ -19,11 +19,11 @@ function calcularMedia() {
 
   let mensagem = "";
   // evite mexer no código acima!
-  
 
-  
-  
-  
+
+
+
+
   // evite mexer na linha de código abaixo!
   document.getElementById("situacaoAluno").innerHTML = mensagem;
 }

@@ -6,6 +6,7 @@ function somar() {
 
 
 
+
   /* use as constantes numero 1 e numero 2 e realize a soma entre elas.
   Em seguida, ao invés de mostrar o numero 10, mostre o resultado da operação */
   document.getElementById("resultadoSoma").innerHTML = 10;
@@ -33,6 +34,7 @@ function multiplicar() {
 
 
 
+
   /* use as constantes numero 1 e numero 2 e realize a soma entre elas.
    Em seguida, ao invés de mostrar o numero 5, mostre o resultado da operação */
   document.getElementById("resultadoMult").innerHTML = 5;
@@ -42,6 +44,7 @@ function dividir() {
   const numero1 = parseFloat(document.getElementById("numero1Div").value);
   const numero2 = parseFloat(document.getElementById("numero2Div").value);
   // evite mexer no código acima!
+
 
 
 
